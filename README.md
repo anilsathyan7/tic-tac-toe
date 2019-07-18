@@ -2,7 +2,7 @@
 
 The classic tic-tac-toe game, using pygame.
 
-# Installation
+## Installation
 
 Pygame : https://www.pygame.org/wiki/GettingStarted
 
@@ -10,7 +10,7 @@ Pygame : https://www.pygame.org/wiki/GettingStarted
 
 1. Download the repository
 2. Run the program: python tic_tac_toe.py
-3. Use the mouse to place the circles or crosses
+3. Use the mouse to place circles or crosses
 4. Follow on-screen instructions
 
 ## Screenshot
