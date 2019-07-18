@@ -5,6 +5,6 @@ The classic tic-tac-toe game using pygame.
 
 ## Screenshot
 
-![Screenshot](isketch_screenshot1.jpg)
+![Screenshot](tic_tac_toe.png
 
 ## Acknowledgements
