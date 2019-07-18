@@ -20,6 +20,6 @@ Version 1.0
 Anil Sathyan
 
 ## Acknowledgements
-* "https://medium.com/tensorflow/train-on-google-colab-and-run-on-the-browser-a-case-study-8a45f9b1474e"
-* "https://github.com/tensorflow/examples/tree/master/lite/examples/image_classification/android"
-* "https://guides.codepath.com/android/Basic-Painting-with-Views"
+* "https://www.pygame.org/wiki/tutorials"
+* "https://www.edureka.co/blog/pygame-tutorial"
+* "https://stackoverflow.com"
