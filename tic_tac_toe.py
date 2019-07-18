@@ -161,7 +161,7 @@ def reset():
     pygame.display.update()
     pygame.time.wait(10)
     count=count+2
-  #pygame.time.wait(600)
+
   pygame.quit()
   sys.exit()             
   
