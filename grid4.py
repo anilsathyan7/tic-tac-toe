@@ -42,15 +42,12 @@ def play_sound(path):
   sound = _sound_library.get('audios/'+path)
   if sound == None:
     
-    #canonicalized_path = path.replace('/', os.sep).replace('', os.sep)
     sound = pygame.mixer.Sound('audios/'+path)
     _sound_library[path] = sound  
   sound.play()
 
 
 # Splash screen
-
-pygame.draw.rect(surface, (0,0,0), pygame.Rect(0, 0, 610, 610), 15)
 play_sound('splash_intro.wav')
 
 
@@ -72,6 +69,7 @@ grid = []
 def draw_grid():
     global grid
     
+    pygame.draw.rect(surface, (0,0,0), pygame.Rect(0, 0, 610, 610), 15)    
     grid.append(pygame.draw.rect(surface, color, pygame.Rect(5, 5, width, height), thickness))
     grid.append(pygame.draw.rect(surface, color, pygame.Rect(205, 5, width, height), thickness))
     grid.append(pygame.draw.rect(surface, color, pygame.Rect(405, 5, width, height), thickness))
@@ -104,7 +102,6 @@ def reset():
   done= False
   pos=35
 
-  #font3 = pygame.font.SysFont('timesnewroman', 50)
   font3 = pygame.font.Font('fonts/gomarice_no_continue.ttf', 70)
   font4 = pygame.font.SysFont('timesnewroman', 30)
   colors = [(148,0,211), (75,0,130), (0,0,255), (0,255,0), (255,255,0), (255,127,0), (255,0,0)]
@@ -152,7 +149,6 @@ def reset():
                 check=True
   # Exit game
   sound.stop()
-  #surface.fill((255, 255, 255))
   pygame.display.update()
   s = pygame.Surface((610,610))
   s.fill((0,0,0))
